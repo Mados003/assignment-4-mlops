@@ -21,8 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install torch
-          pip install flake8
+          pip install -r requirements.txt
 
       - name: Linter Check
         run: flake8 .
