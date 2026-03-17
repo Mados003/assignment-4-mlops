@@ -15,8 +15,8 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install Dependencies
-        run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r E:\ZC\YEAR 4 S2\DSAI 406\Assignment 4\assignment-4-mlops\requirements.txt
 
       - name: Linter Check
         run: python -m pip install flake8 && flake8 .
